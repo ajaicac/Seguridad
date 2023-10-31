@@ -130,7 +130,91 @@ Nuevos SB que están surgiendo:
    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/14/14.PNG)
   
 
-## 22. Preparamos la máquina que tendrá el servidor openfiler, en mi caso serán 3 el disco principal y los de almacenamiento de 1 y 2 GB.
+## 22. 
+- Preparamos la maquina que tendra el servidor openfiler, en mi caso seran 3 el disco principal y los de almacenamiento de 1 y 2 GB
+  
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/1.PNG)
 
-- Durante la instalación nos saldrá este cuadro para iniciar los discos.
-- Desseleccionamos los discos para que la instalación solo se realice en el que deseamos.
+- Durante la instalación nos saldrá  este cuadro para iniciar los discos
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/2.PNG)
+
+
+- Desseleccionamos los discos para que la instalación solo se realice en que deseamos
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/3.PNG)
+
+
+- Después de la instalación, al iniciar  secion añadimos las redes que tendrán acceso
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/4.PNG)
+
+ 
+- Ahora nos vamos a Volumes>Block Devices > y le damos al disco que queramos dar formato
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/5.PNG)
+
+
+
+- en mi caso le doy a los dos disco el mismo formato
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/6.PNG)
+
+
+- Ahora vamos al grupo de volumenes para crear uno con los discos que queramos
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/7.PNG)
+
+  
+- Ahora vamos a añadir el volumen creado
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/8.PNG)
+
+  
+- es importante poner block (iSCSI...)
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/9.PNG)
+
+
+- Ahora debemos ir a la pestaña SAN para habilitar el protocolo iSCSI
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/10.PNG)
+
+
+-Ahora añadimos el volumen como target del protocolo iSCSI
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/11.PNG)
+
+
+
+-Ahora nos aseguramos que el modo de transferencia sea de blockes 
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/12.PNG)
+
+
+- Para añadirlo en Windows , abrimos Iniciador iSCSI y vamos
+  
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/13.PNG)
+
+
+- Ponemos la ip y le damos a opciones avanzadas
+  
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/14.PNG)
+
+
+- Lo ponesmos tal q asi
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/15.PNG)
+  
+![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/16.PNG)
+  
+- Ponemos el adaptador iSCSI, la ip de nuestra maquina y la del SAN
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/17.PNG)
+
+
+- Y cuando abramos el administrador de discos nos aparecerá que tenemos un disco nuevo
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/18.PNG)
+
+  
