@@ -181,13 +181,13 @@ Nuevos SB que están surgiendo:
     ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/10.PNG)
 
 
--Ahora añadimos el volumen como target del protocolo iSCSI
+- Ahora añadimos el volumen como target del protocolo iSCSI
 
   ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/11.PNG)
 
 
 
--Ahora nos aseguramos que el modo de transferencia sea de blockes 
+- Ahora nos aseguramos que el modo de transferencia sea de blockes 
 
   ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/12.PNG)
 
@@ -217,4 +217,25 @@ Nuevos SB que están surgiendo:
 
   ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/18.PNG)
 
+- En ubuntu  
+- Primero instalamos el paquete iscsi
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/u1.PNG)
   
+- Cambiamos el archivo
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/u2.PNG)
+
+- buscamos el nombre en el servidor con
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/u3.PNG)
+  
+- Ahora lo añadimos
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/u4.PNG)
+
+- y ya nos aparece en el administrador de discos
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/u5.PNG)
+  
+
