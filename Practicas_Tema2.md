@@ -238,4 +238,58 @@ Nuevos SB que están surgiendo:
 
   ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/22/u5.PNG)
   
+## 21
+- Primero creamos un grupo de volumen con el disco que queramos utilizar en mi caso el de 1 GB
+  
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/1.PNG)
+
+- Ahora vamos a crear un volumen con x formato en el grupo anterior
+
+ ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/2.png)
+
+- Le damos el nombre, tamaño y tipo de sistema de archivos que queramos y lo creamos
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/3.PNG)
+
+- Ahora nos vamos a shares donde podemos ver el grupo de volumenes y el volumen anteriormente creado, click en este para crear una subcarpeta
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/4.PNG)
+
+
+- Iniciamos los servicios NFS
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/5.PNG)
+
+- Ahora nos vamos a la subcarpeta creada para compartirla
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/6.PNG)
+  
+- Ahora en esta pestaña hay que updatear despues de cada cambio, ponemos public guest y actualizamos y le damos lectura y escritura a las dos ips que tenemos permitidas
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/7.PNG)
+
+- Ahora para conectarte desde  Ubuntu 
+- Nos vamos a la terminal e instalamos el paquete nfs-comon
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/u1.PNG)
+
+- Ahora montamos la carpeta con su ip : la ruta de montage y comprobamos con df -h
+
+    ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/u2.PNG)
+
+- Ahora nos movemos a donde la hemos montado en mi caso en el raiz y creamos un archivo de prueba
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/u3.PNG)
+
+- En windows se complica la cosa debido a que utilizamos el protocolo smb1 que por defecto windows no admite versiones de smb por debajo de la 2 entonces tenemos que añadirlo junto a nfs
+- Para ello nos dirigimos al Panel de control > Programas > Activar o desactivar caracteristicas de Windows
+
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/w1.PNG)
+  
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/w2.PNG)
+
+- y si nos vamos a la ip \\192.168.1.95 vemos la ruta y dentro el archivo que hemos creado en linux
+  
+  ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema2/21/w3.PNG)
+
 
