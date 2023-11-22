@@ -1,4 +1,4 @@
-                                                                                                                                                Javier Povedano y Agustin Jaimez
+#                                                                                                                                                Javier Povedano y Agustin Jaimez
 # Ej 1
 
 regedit
