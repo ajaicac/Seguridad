@@ -73,7 +73,7 @@ Generamos la tabla rainbow, con el siguiente comando
 
     - rtgen: Invoca la herramienta RainbowCrack para generar tablas arcoíris.
     
-    - sha256: Especifica el algoritmo de hash, en este caso, SHA-256.
+    - ntlm: Especifica el algoritmo de hash, en este caso, NTLM.
     
     - loweralpha-numeric: Define el conjunto de caracteres que se utilizará para generar contraseñas, en este caso, letras minúsculas y dígitos.
     
