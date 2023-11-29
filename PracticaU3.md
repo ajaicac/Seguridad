@@ -138,7 +138,7 @@ Ahora vamos a craquearlas con L0phtCrack , el proceso es "sencillo" instalamos e
 ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema3/4/2-4.PNG)
 
 
-## 3
+### 3
 Para cambiar la contraseña con una herramienta LIVE yo utilizare Hiren's BootCD PE.
 Una vez dentro del SO del Hiren vamos a la siguiente aplicación
 
