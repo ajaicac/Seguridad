@@ -106,7 +106,7 @@ Como podemos ver abajo sale la contraseña despues del hash
 
 
 ## 4
-### 1
+### 4.1
 Para utilizar pwdump necesitamos descargarlo y para ello es necesario desactivar windows defender porque te bloquea el paquete por seguridad
 Una vez echo abrimos un cmd como admin y nos vamos a la ruta donde este el pwdump8.exe (en mi caso uso la version 8) y lo ejecutamos mandando la salida a un archivo 
 
@@ -116,7 +116,7 @@ Y si vemos el archivo aparecen los usuarios con los hashs
 
 ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema3/4/2.PNG)
 
-### 2
+### 4.2
 Comporbamos que sploits podemos usar para entrar a windwos con el siguiente comando
 
 msf6 > sudo nmap -Pn -sS -p135,139,445,31337 -sV -O --osscan-guess --script vuln 192.168.1.34
@@ -138,7 +138,7 @@ Ahora vamos a craquearlas con L0phtCrack , el proceso es "sencillo" instalamos e
 ![exWind](https://github.com/ajaicac/Seguridad/blob/main/img/tema3/4/2-4.PNG)
 
 
-### 3
+### 4.3
 Para cambiar la contraseña con una herramienta LIVE yo utilizare Hiren's BootCD PE.
 Una vez dentro del SO del Hiren vamos a la siguiente aplicación
 
